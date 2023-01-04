@@ -10,21 +10,32 @@ body {
 
 header {
   height: 100px;
+  color: white;
+  font-size: 128px;
+  font-weight: 900;
 }
 
 h1 {
-  font-size: 128px;
-  font-weight: bolder;
+  font-size: 160px;
   color: white;
 }
 
 article {
+  display: flex;
   padding: 10px;
   margin: 10px;
+  position: relative;
+  left: 160px;
+  top: 200px;
+
+  flex: 100px;
 }
 
 section {
   display: flex;
+  flex-direction: column;
+
+  top: 1000px;
 }
 
 .container {
@@ -65,7 +76,7 @@ section {
 .iblock {
   position: relative;
   width: 2000px;
-  height: 900px;
+  height: 980px;
 
   background-image: url('imgs/logo.png');
   background-size: 1200px;
@@ -79,12 +90,12 @@ section {
   position: absolute;
   width: 1334px;
   height: 400px;
-  top: 450px;
+  top: 550px;
   right: -5px;
   text-align: left;
 
   font: Montserrat;
-  font-weight: bolder;
+  font-weight: 700;
   font-size: 250px;
   letter-spacing: -0.08em;
   color: white;
@@ -95,12 +106,12 @@ section {
   position: absolute;
   width: 1500px;
   height: 200px;
-  top: 760px;
+  top: 870px;
   left: -120px;
   text-align: center;
 
   font-style: normal;
-  font-weight: lighter;
+  font-weight: 500;
   font-size: 36px;
   letter-spacing: 2.1em;
   color: white;
@@ -109,9 +120,95 @@ section {
 /*exercises*/
 
 .eblock {
-  position: relative;
+  position: absolute;
   width: 2000px;
-  height: 900px;
-  top: -50px;
+  height: 1200px;
+  top: 960px;
   background-color: #3C503B;
+}
+
+.exercises {
+  position: absolute;
+  font-size: 160px;
+  font-weight: 700;
+  left: 95px;
+  top: 1060px;
+
+}
+
+/*numbers*/
+.e {
+  font-size: 40px;
+  color: white;
+  font-weight: 200;
+}
+
+.date {
+  position: absolute;
+  left: 1400px;
+  font-size: 30px;
+  color: white;
+  font-weight: 200;
+  letter-spacing: .1em;
+
+}
+
+/*All Html + Animation*/
+
+.dropbtn {
+  color: white; opacity: 0.6;
+  font-size: 55px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  color: white;
+  padding-left: 200px;
+  font-size: 55px;
+  letter-spacing: .1em;
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  min-width: 120px;
+
+}
+
+.dropdown-content a {
+  font-size: 25px;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  color: white;
+  opacity: 0.4;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*Hoverstates*/
+.hoverstates {
+  position: relative;
+  color: white;
+  text-decoration: none;
+  padding-left: 190px;
+  font-size: 55px;
+  letter-spacing: .1em;
+}
+
+.still-life {
+  position: relative;
+  color: white;
+  text-decoration: none;
+  padding-left: 190px;
+  font-size: 55px;
+  letter-spacing: .1em;
 }
