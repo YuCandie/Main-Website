@@ -1,0 +1,65 @@
+
+html, body, * {
+margin: 0;
+padding: 0;
+background-color: aliceblue;
+cursor: default;
+}
+
+
+/*constant animation*/
+
+.animate_constant {
+background-color: cyan;
+border-radius: 100%;
+border-width: 10px;
+height: 150px;
+width: 25%;
+float: left;
+top: 200px;
+position: relative;
+animation: scale 2s ease-in-out infinite alternate;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(5.0);
+  }
+  100% {
+        transform: scale(0.3);
+    }
+}
+
+
+.animate_alt {
+background-color: crimson;
+border-radius: 100%;
+border-width: 10px;
+height: 150px;
+width: 25%;
+float: left;
+top: 500px;
+position: relative;
+animation: scale 4s ease infinite;
+}
+
+@keyframes constants {
+  0% {
+    transform: scale(2.0);
+  }
+  100% {
+        transform: scale(0.3);
+    }
+}
+
+.animate_steps {
+background-color: chartreuse;
+border-radius: 50%;
+border-width: 5px;
+height: 150px;
+width: 25%;
+float: left;
+top: 10px;
+position: relative;
+animation: constants 1s infinite alternate-reverse;
+}

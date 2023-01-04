@@ -1,0 +1,21 @@
+
+.shape {
+    background: green;
+    width: 400px;
+    height: 400px;
+    animation: shape 2s ease-in-out infinite alternate;
+
+}
+
+.shape2 {
+    background: blue;
+    width: 400px;
+    height: 400px;
+    margin-left: 600px;
+    animation: shape 2s ease-in-out infinite alternate;
+
+}
+@keyframes shape {
+    from {border-radius: 0}
+    to {border-radius: 50%}
+}

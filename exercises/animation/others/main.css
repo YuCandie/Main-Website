@@ -1,0 +1,14 @@
+img {
+    animation: blur 2s ease infinite alternate;
+}
+
+
+@keyframes blur {
+    from {
+        -webkit-filter: blur(00px); /* Safari */
+        filter: blur(00px);  }
+
+    to {
+        -webkit-filter: blur(50px); /* Safari */
+        filter: blur(80px);  }
+}

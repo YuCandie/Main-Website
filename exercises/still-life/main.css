@@ -1,0 +1,324 @@
+body {
+    background-color: #2D5627;
+    text-align: cen
+}
+
+#page {
+  margin-left: 230px;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: left;
+  width: 960px;
+}
+
+.desktop-1 {
+  align-items: flex-start;
+  border: 1px none;
+  display: flex;
+  height: 1024px;
+  padding: 68px 19px;
+  width: 1440px;
+}
+
+.hidden, hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.overlap-group3 {
+  height: 536px;
+  margin-left: 75px;
+  margin-top: 288px;
+  position: relative;
+  width: 676px;
+}
+
+.overlap-group1 {
+  height: 526px;
+  left: 0;
+  position: absolute;
+  top: 10px;
+  width: 676px;
+}
+
+.rectangle-2 {
+  background-color: #7d6a44;
+  border: 1px none;
+  height: 39px;
+  margin-right: 104px;
+  width: 73px;
+  left: 173px;
+  top: 88px;
+}
+
+.rectangle-9 {
+background-color: #d6e8e6cf;
+border: 1px none;
+height: 234px;
+left: 448px;
+position: absolute;
+top: 248px;
+width: 11px;
+opacity: 81%;
+}
+
+.polygon-5 {
+  border-color: #d6e9e6;
+  position: absolute;
+  opacity: 81%;
+  width: 0;
+	height: 0;
+	border-left: 110px solid transparent;
+	border-right: 110px solid transparent;
+	border-top: 130px solid #FF5959;
+  transform: translateY(110px) translateX(343px);
+}
+
+.ellipse-8 {
+background-color: #fff176;
+border: 1px none;
+border-radius: 59px;
+height: 118px;
+left: 541px;
+position: absolute;
+top: 17px;
+width: 118px;
+}
+
+.polygon-3 {
+  border: 1px none;
+  position: absolute;
+  opacity: 81%;
+  width: 0;
+	height: 0;
+	border-left: 70px solid transparent;
+	border-right: 70px solid transparent;
+	border-bottom: 50px solid rgba(214, 233, 230, 0.80);
+  transform: translateY(475px) translateX(384px);
+}
+
+.rectangle-5 {
+background-color: #60676d;
+border: 1px none;
+height: 47px;
+left: 26px;
+position: absolute;
+top: 39px;
+width: 138px;
+}
+
+.polygon-2 {
+  border-color: #d6e9e6;
+  position: absolute;
+  opacity: 81%;
+  width: 0;
+	height: 0;
+	border-left: 150px solid transparent;
+	border-right: 150px solid transparent;
+	border-top: 180px solid rgba(214, 233, 230, 0.80);
+  transform: translateY(75px) translateX(304px);
+}
+
+.rectangle-13 {
+background-color: #C9C9C9;
+border: 1px none;
+height: 136px;
+left: 308px;
+position: absolute;
+top: 294px;
+width: 11px;
+}
+
+.ellipse-7 {
+background-color: #ffb84e;
+border: 1px none;
+border-radius: 76px;
+height: 152px;
+left: 524px;
+position: absolute;
+top: 0;
+width: 152px;
+}
+
+.rectangle-7 {
+background-color: #D9D9D9;
+opacity: 58%;
+border: 1px none;
+height: 207px;
+left: 164px;
+position: absolute;
+top: 294px;
+width: 234px;
+}
+
+.rectangle-10 {
+background-color: #C9C9C9;
+border: 1px none;
+height: 136px;
+left: 202px;
+position: absolute;
+top: 294px;
+width: 11px;
+}
+
+.rectangle-12 {
+background-color: #C9C9C9;
+border: 1px none;
+height: 136px;
+left: 349px;
+position: absolute;
+top: 294px;
+width: 11px;
+}
+
+.rectangle-11 {
+background-color: #C9C9C9;
+border: 1px none;
+height: 136px;
+left: 242px;
+position: absolute;
+top: 294px;
+width: 11px;
+}
+
+.rectangle-4 {
+background-color: #5b6368;
+border: 1px none;
+height: 450px;
+left: 0;
+position: absolute;
+top: 76px;
+width: 191px;
+}
+
+.ellipse-2 {
+background-color: #7bbd52;
+border: 1px none;
+border-radius: 96.5px;
+height: 193px;
+left: 284px;
+position: absolute;
+top: 395px;
+width: 193px;
+}
+
+.ellipse-1 {
+background-color: #d9d9d9;
+border: 1px none;
+border-radius: 50px 50px 5px 5px;
+height: 588px;
+left: 0;
+position: absolute;
+top: 0;
+width: 371px;
+opacity: 63%;
+}
+
+.ellipse-4 {
+background-color: #b1d26b;
+border: 1px none;
+border-radius: 33.83px/18px;
+height: 36px;
+left: 373px;
+position: absolute;
+top: 414px;
+transform: rotate(20deg);
+width: 68px;
+}
+
+.rectangle-3 {
+background-color: #d9d9d9;
+border: 1px none;
+height: 169px;
+left: 0;
+position: absolute;
+top: 210px;
+width: 371px;
+}
+
+.polygon-4 {
+background-color: #BFDB83;
+height: 99px;
+width: 116px;
+opacity: 73%;
+}
+
+.flex-col {
+align-items: center;
+display: flex;
+flex-direction: column;
+margin-left: 5px;
+min-height: 814px;
+width: 477px;
+}
+
+.rectangle-1 {
+  background-color: #D9D9D9;
+  opacity: 58%;
+  border: 1px none;
+  height: 187px;
+  margin-right: 105px;
+  width: 86px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.overlap-group {
+  height: 588px;
+  position: relative;
+  width: 477px;
+}
+
+.ellipse-3 {
+background-color: #ffc5be;
+border: 1px none;
+border-radius: 159.5px/64px;
+height: 128px;
+left: 27px;
+position: absolute;
+top: 231px;
+width: 319px;
+}
+
+.rectangle-8 {
+background-color: #d9d9d9;
+border: 1px none;
+height: 25px;
+left: 202px;
+position: absolute;
+top: 500px;
+width: 158px;
+opacity: 53%;
+}
+
+.rectangle-6 {
+background-color: #6a7279;
+border: 1px none;
+height: 39px;
+left: 57px;
+position: absolute;
+top: 0;
+width: 79px;
+}
+
+.overlap-group2 {
+align-items: flex-start;
+background-image: url(https://animauploads.s3.amazonaws.com/projects/633cfE 1@2x.svg);
+background-size: 100% 100%;
+display: flex;
+height: 124px;
+margin-left: 22px;
+margin-top: 690.52px;
+min-width: 147px;
+padding: 10.7px 14.6px;
+}
+
+.rectangle-14 {
+  background-color: #def7ff;
+  border: 1px none;
+  height: 437px;
+  left: 19px;
+  position: absolute;
+  top: 137px;
+  width: 330px;
+}

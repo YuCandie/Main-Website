@@ -1,0 +1,68 @@
+
+html, body, * {
+margin: 0;
+padding: 0;
+background-color: burlywood;
+cursor: default;
+}
+
+.canvas {
+width: 100%;
+height: 100%;
+}
+
+
+/*constant animation*/
+
+.animate_constant {
+background-color: yellow;
+border-radius: 50%;
+border-width: 5px;
+height: 150px;
+width: 25%;
+float: left;
+top: 10px;
+position: relative;
+animation: constant 2s ease-in-out infinite alternate;
+}
+
+@keyframes constant {
+0%   {left:-100px;}
+100% {left:600px;}
+}
+
+.animate_alt {
+background-color: brown;
+border-radius: 50%;
+border-width: 5px;
+height: 150px;
+width: 25%;
+float: left;
+top: 10px;
+position: relative;
+animation: constants 1.2s ease-in-out infinite alternate;
+}
+
+@keyframes constants {
+0%   {right:-600px;}
+100% {right:100px;}
+}
+
+.animate_steps {
+background-color: blueviolet;
+border-radius: 50%;
+border-width: 5px;
+height: 150px;
+width: 25%;
+float: left;
+top: 10px;
+position: relative;
+animation: move-in-steps 2s steps(9) infinite;
+animation-direction: alternate;
+}
+
+@keyframes move-in-steps {
+0%   {top:0px;}
+50%  {right:200px;}
+100% {top:800px;}
+}
