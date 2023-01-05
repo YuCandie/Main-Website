@@ -165,7 +165,7 @@ section {
   position: relative;
   display: inline-block;
   color: white;
-  padding-left: 200px;
+  padding-left: 190px;
   font-size: 55px;
   letter-spacing: .1em;
 }
@@ -188,10 +188,14 @@ section {
 .dropdown-content a:hover {
   color: white;
   opacity: 0.4;
+  transition: all .5s ease;
+  -webkit-transition: all .4s ease;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
+  transition: all .4s ease;
+-webkit-transition: all .4s ease;
 }
 
 /*Hoverstates*/
@@ -206,6 +210,15 @@ section {
 
 /*still life*/
 .still-life {
+  position: relative;
+  color: white;
+  text-decoration: none;
+  padding-left: 190px;
+  font-size: 55px;
+  letter-spacing: .1em;
+}
+
+.iframe {
   position: relative;
   color: white;
   text-decoration: none;
