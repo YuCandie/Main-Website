@@ -107,13 +107,13 @@ section {
   width: 1500px;
   height: 200px;
   top: 870px;
-  left: -120px;
+  left: -80px;
   text-align: center;
 
   font-style: normal;
   font-weight: 500;
   font-size: 36px;
-  letter-spacing: 2.1em;
+  letter-spacing: 2.3em;
   color: white;
 }
 
@@ -195,7 +195,7 @@ section {
 }
 
 /*Hoverstates*/
-.hoverstates {
+.hoverstates  {
   position: relative;
   color: white;
   text-decoration: none;
