@@ -22,13 +22,30 @@ h1 {
 
 article {
   display: flex;
+  position: relative;
   padding: 10px;
   margin: 10px;
-  position: relative;
   left: 160px;
   top: 200px;
-
   flex: 100px;
+}
+
+article2 {
+  display: flex;
+  position: relative;
+  padding: 10px;
+  margin: 10px;
+  left: 160px;
+  top: 700px;
+  flex: 100px;
+}
+
+article:hover, article2:hover {
+  background-color: rgb(217, 217, 217, .1);
+  margin-right: -140px;
+  padding-left: 50px;
+  transition: all .5s ease;
+  -webkit-transition: all .4s ease;
 }
 
 section {
@@ -108,8 +125,8 @@ section {
   height: 200px;
   top: 870px;
   left: -80px;
-  text-align: center;
 
+  text-align: center;
   font-style: normal;
   font-weight: 500;
   font-size: 36px;
@@ -129,60 +146,66 @@ section {
 
 .exercises {
   position: absolute;
-  font-size: 160px;
-  font-weight: 700;
   left: 95px;
   top: 1060px;
 
+  font-size: 160px;
+  font-weight: 700;
 }
 
 /*numbers*/
-.e {
+.e, .p {
   font-size: 40px;
-  color: white;
   font-weight: 200;
+  color: white;
 }
+
 
 .date {
   position: absolute;
-  left: 1400px;
+  width: 100%;
+  right: 0%;
+  left: 700px;
+
   font-size: 30px;
-  color: white;
   font-weight: 200;
   letter-spacing: .1em;
-
+  text-align: center;
+  color: white;
 }
 
 /*All Html + Animation*/
-
 .dropbtn {
-  color: white; opacity: 0.6;
-  font-size: 55px;
   border: none;
+
+  font-size: 55px;
+  color: white;
+  opacity: 0.6;
 }
 
 .dropdown {
   position: relative;
   display: inline-block;
-  color: white;
   padding-left: 190px;
-  font-size: 55px;
+
   letter-spacing: .1em;
+  font-size: 55px;
+  color: white;
 }
 
 .dropdown-content {
   display: none;
   position: relative;
   min-width: 120px;
-
 }
 
 .dropdown-content a {
-  font-size: 25px;
-  color: white;
   padding: 10px;
   text-decoration: none;
   display: block;
+
+  font-size: 25px;
+  color: white;
 }
 
 .dropdown-content a:hover {
@@ -194,35 +217,39 @@ section {
 
 .dropdown:hover .dropdown-content {
   display: block;
-  transition: all .4s ease;
--webkit-transition: all .4s ease;
+  transition: all .8s ease;
+-webkit-transition: all .8s ease;
 }
 
-/*Hoverstates*/
-.hoverstates  {
+/*Exercise Articles*/
+.hoverstates, .still-life, .iframe {
   position: relative;
-  color: white;
   text-decoration: none;
   padding-left: 190px;
+
   font-size: 55px;
   letter-spacing: .1em;
+  color: white;
 }
 
-/*still life*/
-.still-life {
-  position: relative;
-  color: white;
-  text-decoration: none;
-  padding-left: 190px;
-  font-size: 55px;
-  letter-spacing: .1em;
+/*Projects*/
+.projects {
+  position: absolute;
+  left: 95px;
+  top: 2300px;
+
+  font-size: 160px;
+  font-weight: 700;
 }
 
-.iframe {
-  position: relative;
-  color: white;
+  /*Projects Articles*/
+
+.harmonic {
+  position: absolute;
   text-decoration: none;
   padding-left: 190px;
+
   font-size: 55px;
   letter-spacing: .1em;
+  color: white;
 }
