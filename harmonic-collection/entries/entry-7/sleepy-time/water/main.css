@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Italiana:400");
+
+* {
+  font-family: 'Italiana';
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+body {
+  background-image: url("https://mind-blowingfacts.com/wp-content/uploads/2018/07/drown_thumb.jpg");
+  background-size:  cover;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.2;
+  font-size: 60px;
+  text-align: right;
+}
+
+a {
+  text-decoration: none;
+    color: black;
+    font: 'Italiana';
+
+}
+
+
+h1 {
+  color: #131313;
+  font: 'Italiana';
+
+}

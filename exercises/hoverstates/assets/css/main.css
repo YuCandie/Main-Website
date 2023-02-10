@@ -61,6 +61,8 @@ body {
 
 .gradient-fill {
   background: -webkit-linear-gradient(#e128ff, #ff5151);
+  background-clip: text;
+
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 0.8s ease;
@@ -68,9 +70,11 @@ body {
 
 .gradient-fill:hover {
   background: -webkit-radial-gradient(#40ff00, #7d81ff, #00ed8a);
+background-clip: text;
+  cursor: pointer;
+
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  cursor: pointer;
 }
 
 .funky-cursor {
@@ -180,7 +184,9 @@ transition: all 0.5s ease;
   position: absolute;
   max-width: 200px;
   opacity: 0;
+
   -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
 }
 .alternate:hover img {
   opacity: 1;
@@ -195,6 +201,9 @@ transition: all 0.5s ease;
   display: inline-block;
   margin: 0 auto;
   background-color: #5293d5;
+  
+  transform: rotate(45deg);
+  transition: all 1s ease-in-out;
   -webkit-transform: rotate(45deg);
   -webkit-transition: all 1s ease-in-out;
 }
@@ -204,6 +213,8 @@ transition: all 0.5s ease;
   width: 150px;
   height: 150px;
   background-color: #fe3794;
+  
+  transform: scale(2.25);
   -webkit-transform: scale(2.25);
   cursor: pointer;
 }

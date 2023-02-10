@@ -1,0 +1,23 @@
+body {
+  background-image: url('https://wallpapercave.com/wp/8rsFh1S.jpg');
+  background-size: auto;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.3;
+  font-size: 19px;
+  text-align: center;
+}
+
+p {
+  color: white;
+  filter: drop-shadow(5px 5px 10px skyblue);
+  transition: all 0.2s ease;
+}
+
+p:hover {
+  color: white;
+  font-style: italic;
+    filter: drop-shadow(5px 5px 10px white);
+    -webkit-transform: scale(1.6);
+    transform: scale(1.6);
+    cursor: pointer;
+}

@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Italiana:400");
+
+* {
+  font-family: 'Italiana';
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+body {
+  background-image: url("https://wallpaperaccess.com/full/5488595.jpg");
+  background-size:  cover;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.2;
+  font-size: 60px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+    color: white;
+    font: 'Italiana';
+
+}
+
+
+h1 {
+  color: #131313;
+  font: 'Italiana';
+
+}

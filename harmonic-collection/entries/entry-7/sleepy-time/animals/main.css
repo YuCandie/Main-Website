@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Italiana:400");
+
+* {
+  font-family: 'Italiana';
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+body {
+  background-color: black;
+  line-height: 1.2;
+  font-size: 60px;
+  font: 'Italiana';
+
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+    color: gray;
+    font: 'Italiana';
+
+}
+
+
+h1 {
+  color: gray;
+  font: 'Italiana';
+
+}

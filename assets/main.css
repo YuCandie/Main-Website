@@ -1,5 +1,5 @@
 html {
-  font-family: Montserrat;
+  font-family: 'Montserrat';
     background: #0D0D0D;
 }
 
@@ -252,4 +252,28 @@ section {
   font-size: 55px;
   letter-spacing: .1em;
   color: white;
+}
+
+.github {
+  position: absolute;
+  padding-left: 300px;
+  top: 2800px;
+
+  font-size:55px;
+  text-align: right;
+  color: white;
+  text-decoration: none;
+  letter-spacing: .1em;
+}
+
+.email {
+  position: absolute;
+  padding-left: 600px;
+  top: 2800px;
+
+  font-size:55px;
+  text-align: right;
+  color: white;
+  text-decoration: none;
+  letter-spacing: .1em;
 }

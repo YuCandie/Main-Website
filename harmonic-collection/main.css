@@ -1,0 +1,70 @@
+a {
+  color: black;
+  font-size: 20px
+}
+
+
+body {
+  background-image: url('../assets/imgs/stuffy2.gif');
+  background-size: auto;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.2;
+  font-size: 60px;
+  text-align: center;
+}
+
+#page {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 350px;
+  margin-bottom: auto;
+  text-align: left;
+  width: 960px;
+}
+
+h1 {
+  color: #b0fc38;
+}
+
+.simplelink {
+  line-height: 100px;
+  text-decoration: none;
+  font-size: 60px;
+  color: white;
+  transition: all 0.1s ease;
+}
+
+.cloud {
+  transform: scale(100%);
+  transition: all 0.5s ease;
+  border: 6px outset lightpink;
+}
+
+.pillow {
+  transform: scale(100%);
+  transition: all 0.5s ease;
+  border: 6px outset lightpink;
+}
+
+.figma {
+  text-decoration: none;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+/*Hovers*/
+  .pillow:hover {
+  border: none;
+  filter: drop-shadow(5px 5px 5px salmon);
+  -webkit-transform: scale(1.7);
+  transform: scale(1.7);
+}
+
+.cloud:hover {
+  border: none;
+  filter: drop-shadow(5px 5px 5px salmon);
+  -webkit-transform: scale(1.7);
+  transform: scale(1.7);
+}
+

@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Italiana:400");
+
+* {
+  font-family: 'Italiana';
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+
+body {
+  background-image: url("https://th-thumbnailer.cdn-si-edu.com/8liir7_qgkrwh2o9sa7x6Aonz70=/fit-in/1600x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/ee/54/ee546179-a222-470a-8f7e-147ca1adbcc6/42-56923287.jpg");
+  background-size:  cover;
+  font-family: 'Italiana', sans-serif;
+  line-height: 1.2;
+  font-size: 60px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+    color: #131313;
+    font: 'Italiana';
+
+}
+
+
+h1 {
+  color: #131313;
+  font: 'Italiana';
+
+}

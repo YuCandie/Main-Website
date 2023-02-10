@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css?family=Italiana:400");
+
+* {
+  font-family: 'Italiana';
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+body {
+    background: url('https://images3.alphacoders.com/696/thumb-1920-696943.jpg');
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 20px;
+    height: 300px;
+    justify-content: center;
+  }
+
+.row {
+  display: flex;
+  width: 80%;
+  height: 100px;
+  justify-content: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100px;
+}
+
+h1 {
+    font: 'Italiana';
+    font-weight: 400;
+    line-height: 151px;
+    letter-spacing: 9px;
+    font-size: 4em;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+p {
+    font: 'Italiana';
+    font-weight: 200;
+    line-height: 90px;
+    letter-spacing: 23px;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Rows of Photos*/
+
+.container
+div:nth-of-type(1),
+div:nth-of-type(6),
+div:nth-of-type(11),
+div:nth-of-type(16),
+div:nth-of-type(21) {
+
+    background-color: black;
+}
+
+div:nth-of-type(1):hover,
+div:nth-of-type(6):hover,
+div:nth-of-type(11):hover,
+div:nth-of-type(16):hover,
+div:nth-of-type(21):hover {
+
+  background-position: center;
+  background-size: cover;
+
+}
+
+.container
+div:nth-of-type(2),
+div:nth-of-type(7),
+div:nth-of-type(12),
+div:nth-of-type(17),
+div:nth-of-type(22) {
+    background-color: #330404;
+}
+
+div:nth-of-type(2):hover,
+div:nth-of-type(7):hover,
+div:nth-of-type(12):hover,
+div:nth-of-type(17):hover,
+div:nth-of-type(22):hover {
+  background: url('https://images.theconversation.com/files/122137/original/image-20160511-18171-kulas4.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip') no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.container
+div:nth-of-type(3),
+div:nth-of-type(8),
+div:nth-of-type(13),
+div:nth-of-type(18),
+div:nth-of-type(23) {
+    background-color: #230B20;
+}
+
+div:nth-of-type(3):hover,
+div:nth-of-type(8):hover,
+div:nth-of-type(13):hover,
+div:nth-of-type(18):hover,
+div:nth-of-type(23):hover {
+  background: url('https://www.psypost.org/wp-content/uploads/2019/07/dreaming-702x375.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.container
+div:nth-of-type(4),
+div:nth-of-type(9),
+div:nth-of-type(14),
+div:nth-of-type(19),
+div:nth-of-type(24) {
+    background-color: #042b33;
+}
+
+div:nth-of-type(4):hover,
+div:nth-of-type(9):hover,
+div:nth-of-type(14):hover,
+div:nth-of-type(19):hover,
+div:nth-of-type(24):hover{
+    background: url('https://imageio.forbes.com/specials-images/imageserve/61609bea76e0111d074d178e/Aerial-View-of-Rough-Sea-Waves/960x0.jpg?format=jpg&width=960') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container
+div:nth-of-type(5),
+div:nth-of-type(10),
+div:nth-of-type(15),
+div:nth-of-type(20),
+div:nth-of-type(25) {
+    background-color: #23140B;
+}
+
+div:nth-of-type(5):hover,
+div:nth-of-type(10):hover,
+div:nth-of-type(15):hover,
+div:nth-of-type(20):hover,
+div:nth-of-type(25):hover {
+  background: url('https://media.istockphoto.com/photos/footprints-in-the-beach-sand-picture-id596811516?k=20&m=596811516&s=170667a&w=0&h=PAeHoFPwJ5LUSfohlPzeunJHeQK1nlHlJmRy7bTXgoo=') no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}

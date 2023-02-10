@@ -1,0 +1,199 @@
+@import "https://unpkg.com/normalize.css";
+@import url("https://fonts.googleapis.com/css?family=Italiana:400");
+
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
+:root {
+	--gap:3rem;
+	--card-width: clamp(280px, 20vw, 100vw);
+	--card-aspect-ratio: 5 / 7;
+	--card-height: calc(var(--card-width) * (7 / 5));
+}
+
+
+h1 {
+	position: fixed;
+	left: 30px;
+	top: 363px;
+	font-family: 'Italiana';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 140px;
+	line-height: 113px;
+	text-align: center;
+
+}
+
+.grid {
+	display: grid;
+	justify-content: center;
+	grid-template-columns: repeat(5, var(--card-width));
+	gap: 1rem;
+  /* overflow: hidden shouldn't break this? */
+  overflow: hidden;
+}
+
+.grid-wrapper {
+	overflow: hidden;
+}
+
+.column {
+	display: grid;
+	gap: 3rem;
+}
+
+.column:is(:nth-of-type(3)) {
+	animation: slide 11s linear infinite;
+ }
+
+/* The distance is the number of cards minus 100vh */
+.column:is(:nth-of-type(2), :nth-of-type(4)) {
+ animation: slide 20s linear infinite;
+}
+.column:is(:nth-of-type(1), :nth-of-type(5)) {
+	 animation: slide 15s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, -1500px, 0); /* The image width */
+  }
+}
+
+img {
+	max-width: 100%;
+	border: 0;
+	padding: 0;
+	max-height: 100%;
+	width: 100%;
+	background: hsl(0 0% 80%);
+}
+
+@media (min-width: 323px) {
+body {
+	place-items: left;
+}
+  h1 {
+    font-size: 70px;
+		font-weight: normal;
+		top: 240px;
+		line-height: 50px;
+  }
+	.grid {
+		gap: 0rem;
+	}
+	.column {
+		gap: 0rem;
+	}
+	.column:is(:nth-of-type(3)) {
+		animation: slide 6s linear infinite;
+	 }
+
+	.column:is(:nth-of-type(2), :nth-of-type(4)) {
+	 animation: slide 10s linear infinite;
+	}
+	.column:is(:nth-of-type(1), :nth-of-type(5)) {
+		 animation: slide 8s linear infinite;
+	}
+	img {
+		transform: scale(105%);
+		filter: blur(5px);
+	}
+}
+
+@media (min-width: 485px) {
+  h1 {
+    font-size: 100px;
+		font-weight: normal;
+		top: 260px;
+		line-height: 80px;
+  }
+	.grid {
+		gap: 1rem;
+	}
+	.column {
+		gap: 2rem;
+	}
+	.column:is(:nth-of-type(3)) {
+		animation: slide 8s linear infinite;
+	 }
+
+	.column:is(:nth-of-type(2), :nth-of-type(4)) {
+	 animation: slide 14s linear infinite;
+	}
+	.column:is(:nth-of-type(4), :nth-of-type(5)) {
+		 animation: slide 10s linear infinite;
+	}
+	img {
+		transform: scale(103%);
+		filter: blur(4px);
+	}
+}
+
+@media (min-width: 772px) {
+
+  h1 {
+    font-size: 120px;
+		font-weight: bold;
+		line-height: normal;
+		top: 240px;
+  }
+	.grid {
+		gap: 2rem;
+	}
+	.column {
+		gap: 4rem;
+	}
+	.column:is(:nth-of-type(3)) {
+		animation: slide 8s linear infinite;
+	 }
+
+	.column:is(:nth-of-type(2), :nth-of-type(4)) {
+	 animation: slide 17s linear infinite;
+	}
+	.column:is(:nth-of-type(1), :nth-of-type(5)) {
+		 animation: slide 12s linear infinite;
+	}
+	img {
+		transform: scale(102%);
+		filter: blur(2px);
+	}
+}
+
+@media (min-width: 1440px) {
+
+  h1 {
+    font-size: 190px;
+		font-weight: bolder;
+		line-height: normal;
+		top: 200px;
+  }
+	.grid {
+		gap: 3rem;
+	}
+	.column {
+		gap: 5rem;
+	}
+	.column:is(:nth-of-type(3)) {
+		animation: slide 10s linear infinite;
+		
+	 }
+
+	.column:is(:nth-of-type(2), :nth-of-type(4)) {
+	 animation: slide 19s linear infinite;
+	}
+	.column:is(:nth-of-type(1), :nth-of-type(5)) {
+		 animation: slide 15s linear infinite;
+	}
+	img {
+		transform: scale(100%);
+		filter: blur(0px);
+	}
+}

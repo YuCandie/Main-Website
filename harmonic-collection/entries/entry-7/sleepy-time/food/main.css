@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Italiana:400");
+
+* {
+  font-family: 'Italiana';
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+body {
+  background-image: url("https://www.optionstheedge.com/sites/default/files/field/featured-image/2019/serena_cover.jpg");
+  background-size:  cover;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.2;
+  font-size: 60px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 70px;
+    color: white;
+    font: 'Italiana';
+
+}
+
+
+h1 {
+  color: #131313;
+  font: 'Italiana';
+
+}

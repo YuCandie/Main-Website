@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Italiana:400");
+
+* {
+  font-family: 'Italiana';
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+
+body {
+  background-image: url('https://i.pinimg.com/originals/29/fd/42/29fd421c74ee914d25a7d6178f341df7.jpg');
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.2;
+  font-size: 60px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+    color: gray;
+    font: 'Italiana';
+
+}
+
+
+h1 {
+  color: white;
+  font: 'Italiana';
+
+}
